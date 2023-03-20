@@ -1,12 +1,8 @@
 ![](docs/images/logo.png)
 
-[![Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=Downloads&query=totalString&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftopjohnwu%2Fmagisk-files%2Fcount%2Fcount.json&cacheSeconds=1800)](https://raw.githubusercontent.com/topjohnwu/magisk-files/count/count.json)
-
-#### This is not an officially supported Google product
-
 ## Introduction
 
-Magisk is a suite of open source software for customizing Android, supporting devices higher than Android 6.0.<br>
+MagiskDuo is a suite of open source software for customizing Android, specially designed for Surface Duo.<br>
 Some highlight features:
 
 - **MagiskSU**: Provide root access for applications
@@ -39,7 +35,7 @@ For Magisk app crashes, record and upload the logcat when the crash occurs.
 ## Building and Development
 
 - Magisk builds on any OS Android Studio supports. Install Android Studio and do the initial setups.
-- Clone sources: `git clone --recurse-submodules https://github.com/topjohnwu/Magisk.git`
+- Clone sources: `git clone --recurse-submodules https://github.com/HikariCalyx/Magisk.git`
 - Install Python 3.8+ \
   (Windows only: select **'Add Python to PATH'** in installer, and run `pip install colorama` after install)
 - Configure to use the JDK bundled in Android Studio:
